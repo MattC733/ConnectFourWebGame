@@ -23,6 +23,14 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: #40F99B;
+}
+
+.TurnContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .P2Container {
@@ -30,6 +38,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: #9F4A54;
 }
 
 .secGridCon {
