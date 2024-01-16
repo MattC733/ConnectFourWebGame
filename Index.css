@@ -1,0 +1,75 @@
+body {
+    background: #210124;
+    color: #E3F2FD;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    font-family: monospace;
+    font-size: xx-large;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 14px;
+}
+
+.P1Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.P2Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.secGridCon {
+    display: grid;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    grid-template-rows: 10px;
+    grid-template-columns: 60px 60px 60px 60px 60px 60px 60px 60px 60px;
+    grid-column-gap: 15px;
+}
+
+.selector {
+    width: auto;
+    height: auto;
+    background: #E3F2FD;
+    clip-path: circle();
+    grid-column: 5;
+}
+
+.gridContainer {
+    display: grid;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+
+.EmptySquare {
+    width: 60px;
+    height: 60px;
+    background: #61707D;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 5px #61707D inset;
+}
