@@ -9,6 +9,37 @@ body {
     font-size: xx-large;
 }
 
+.popUp {
+    display: flex;
+    flex-direction: column;
+    background: #E3F2FD;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    height: 60%;
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+    border-radius: 25%;
+}
+
+.popTitle {
+    color: #210124;
+    font-size: 4em;
+    margin-bottom: 10%;
+}
+
+.popInstructions {
+    color: #210124;
+    margin-bottom: 5%;
+}
+
+.popCloseText {
+    color: #210124;
+    font-size: small;
+}
+
 header {
     display: flex;
     align-items: center;

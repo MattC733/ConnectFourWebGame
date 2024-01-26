@@ -12,6 +12,8 @@ document.onkeydown = checkKey;
 
 function checkKey(e) {
 
+    document.getElementById('tutorial').style.display = 'none'
+
     e = e || window.event;
 
     let btn = document.getElementById("selector")
